@@ -1,4 +1,4 @@
-* {
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #4365E2;
+  /* Replace background-color with a background image */
+  background-image: url('path/to/your/newtons-cradle-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +24,8 @@ body {
   width: 90%;
   max-width: 360px;
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background to improve readability */
+  border-radius: 8px;
 }
 
 h1,
