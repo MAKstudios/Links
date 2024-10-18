@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* Replace background-color with a background image */
-  background-image: url('path/to/your/newtons-cradle-image.jpg');
+  /* Background image from the provided URL */
+  background-image: url('https://us.images.westend61.de/0001128763j/data-swinging-in-a-newtons-cradle-ALF00745.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body {
   width: 90%;
   max-width: 360px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background to improve readability */
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
   border-radius: 8px;
 }
 
